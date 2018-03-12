@@ -20,10 +20,10 @@ var seconds = Math.floor((distance%(1000*60))/1000);
 
 // Display Result
 countdown.innerHTML = `
-<div>${days}<span> Days</span></div>
-<div>${hours}<span> Hours</span></div>
-<div>${munites}<span> Munites</span></div>
-<div>${seconds}<span> Seconds</span></div>`;
+<div>${days}<span>Days</span></div>
+<div>${hours}<span>Hours</span></div>
+<div>${munites}<span>Munites</span></div>
+<div>${seconds}<span>Seconds</span></div>`;
 },1000);
 
 
